@@ -12,9 +12,9 @@ driver = webdriver.Remote(
    command_executor="http://localhost:4723/wd/hub",
 
 desired_capabilities = {
-    "deviceName": "iPhone 11 Pro",
+    "deviceName": "iPhone Xr",
     "platformName": "IOS",
-    "platformVersion": "13.3",
+    "platformVersion": "12.4",
     #"automationName": "XCUITest",
     "browserName": "Safari",
 
